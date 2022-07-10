@@ -16,8 +16,11 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
+          <a href="https://blog.invalidlenni.de/" className="mr-5 hover:text-white">
+            Blog
+          </a>
+          <a href="https://dev.to/InvalidLenni" className="mr-5 hover:text-white">
+            dev.to blog
           </a>
         </nav>
       </div>
