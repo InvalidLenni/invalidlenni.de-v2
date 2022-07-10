@@ -6,7 +6,7 @@ export const projects = [
       subtitle: "Python",
       description:
         "BrawlerStats is a verified discord bot for viewing brawl stars profile and club stats in discord",
-      image: "./assets/brawlerstats_icon.png",
+      image: "./brawlerstats_icon.jpg",
       link: "https://bit.ly/BrawlerStats",
     },
     {
@@ -14,7 +14,7 @@ export const projects = [
       subtitle: "Javascript with ExpressJS", 
       description:
         "DEPRECATED: Disweb is an API for get informations about a discord guild or user.",
-      image: "./assets/disweb.png",
+      image: "../assets/disweb.png",
       link: "https://disweb.glitch.me/",
     },
     {
@@ -22,7 +22,7 @@ export const projects = [
       subtitle: "PHP and PicoCSS",
       description:
         "LennCord will be a public chat app with many features.",
-      image: "./assets/avatar.png",
+      image: "./avatar.png",
       link: "#",
     },
     {
@@ -30,37 +30,37 @@ export const projects = [
       subtitle: "Discord",
       description:
         "GamerRoom is a german discord server.",
-      image: "./assets/gamerroom.png",
+      image: "./project-4.webp",
       link: "https://discord.gg/gamerroom",
     },
   ];
 
 export const skills = [
   {
-    skill:"Python"
+    name:"Python"
   },
   {
-    skill:"JavaScript"
+    name:"JavaScript"
   },
   {
-    skill:"Java"
+    name:"Java"
   },
   {
-    skill:"Php"
+    name:"Php"
   },
   {
-    skill:"Lua"
+    name:"Lua"
   },
   {
-    skill:"HTML"
+    name:"HTML"
   },
   {
-    skill:"CSS"
+    name:"CSS"
   },
   {
-    skill:"ReactJS"
+    name:"ReactJS"
   },
   {
-    skill:"TailwindCSS, PicoCSS, Material Design"
+    name:"TailwindCSS, PicoCSS, Material Design"
   }
 ]
