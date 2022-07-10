@@ -1,4 +1,4 @@
-// src/data.js
+// Location from my skills, my projects etc 
 
 export const projects = [
     {
@@ -10,11 +10,27 @@ export const projects = [
       link: "https://bit.ly/BrawlerStats",
     },
     {
+      title: "Lixoja",
+      subtitle: "Python with discord.py",
+      description:
+        "OFFLINE, BUT SOON AGAIN ONLINE WITH A BIG UPDATE WHEN I HAVE ENOUGH ONEY: Lixoja is a cutting-edge multipurpose discord bot.",
+      image: "./lixoja.png",
+      link: "#"
+    },
+    {
+      title: "InvalidAddons",
+      subtitle: "HTML and CSS",
+      description: 
+        "You're searching minecraft addons for your server or client? Then you can find there addons for you!",
+      image: "./invalidaddons.png",
+      link: "#"
+    },
+    {
       title: "Disweb",
       subtitle: "Javascript with ExpressJS", 
       description:
         "DEPRECATED: Disweb is an API for get informations about a discord guild or user.",
-      image: "../assets/disweb.png",
+      image: "./disweb.png",
       link: "https://disweb.glitch.me/",
     },
     {
@@ -30,7 +46,7 @@ export const projects = [
       subtitle: "Discord",
       description:
         "GamerRoom is a german discord server.",
-      image: "./project-4.webp",
+      image: "./gamerroom.webp",
       link: "https://discord.gg/gamerroom",
     },
   ];
@@ -61,6 +77,12 @@ export const skills = [
     name:"ReactJS"
   },
   {
-    name:"TailwindCSS, PicoCSS, Material Design"
+    name:"PicoCSS"
+  },
+  {
+    name:"TailwindCSS"
+  },
+  {
+    name:"Material design"
   }
 ]
