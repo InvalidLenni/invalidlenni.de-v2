@@ -86,3 +86,26 @@ export const skills = [
     name:"Material design"
   }
 ]
+
+export const socials = [
+  {
+    name: "invalidlenni",
+    link: "https://twitter.com/InvalidLenni/",
+    media: "Twitter"
+  },
+  {
+    name: "invalidlenni",
+    link: "https://twitch.tv/invalidlenni",
+    media: "Twitch"
+  },
+  {
+    name: "invalidlenni",
+    link: "https://instagram.com/invalidlenni",
+    media: "Instagram",
+  },
+  {
+    name: "invalidlenni",
+    link: "https://github.com/InvalidLenni/",
+    media: "Github"
+  }
+]
