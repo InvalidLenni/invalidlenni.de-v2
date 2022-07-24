@@ -49,6 +49,36 @@ export const projects = [
       image: "./gamerroom.webp",
       link: "https://discord.gg/gamerroom",
     },
+    {
+      title: "simple-amari.py",
+      subtitle: "Python",
+      description: "A simple easy2use Python wrapper for the AmariBot API.",
+      image: "https://amaribot.com/static/media/Flowers.116aee2b.png",
+        link: "https://github.com/InvalidLenni/simple-amari.py"
+    },
+    {
+      title: "disweb.py",
+      subtitle: "Python", 
+      description:
+        "DEPRECATED: A simple & easy2use python wrapper for the Disweb API",
+      image: "./disweb.png",
+      link: "https://pypi.org/project/disweb.py",
+    },
+    {
+      title: "Quart-Nextcord",
+      subtitle: "Python",
+      description: 
+        "Discord OAuth2 extension for Quart. An Easier Implementation of Log In with Discord. Maintained fork of Quart-Discord",
+      image: "https://avatars.githubusercontent.com/u/89693200?s=200&v=4",
+      link: "https://quart-nextcord.rtfd.io/"
+    },
+    {
+      title: "AntiScamBot",
+      subtitle: "Python and Backend (Serverless)",
+      description: "Backend for the AntiScamBot",
+      image: "https://avatars.githubusercontent.com/u/97678335?s=400&u=435aa045379401e1d075f5a6b902082b7c38dd9f&v=4",
+      link: "https://github.com/AntiScamBot/backend"
+    }
   ];
 
 export const skills = [
@@ -83,7 +113,10 @@ export const skills = [
     name:"TailwindCSS"
   },
   {
-    name:"Material design"
+    name:"Material Design"
+  },
+  {
+    name: "C#"
   }
 ]
 

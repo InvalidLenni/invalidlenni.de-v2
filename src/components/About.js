@@ -25,7 +25,7 @@ export default function About() {
                     <img 
                         className="object-cover object-center rounded"
                         alt="avatar"
-                        src="./avatar.png"
+                        src="./avatar2.png"
                     />
                 </div> 
             </div>

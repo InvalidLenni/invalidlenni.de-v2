@@ -1,0 +1,38 @@
+import React from "react";
+import { Outlet, Link } from "react-router-dom";
+
+function Layout() {
+    return (
+    <> 
+        <header className="bg-gray-800 md:sticky top-0 z-10">
+            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <div className="title-font font-medium text-white mb-4 md:mb-0">
+                <a href="#about" className="ml-3 text-xl">
+                    InvalidLenni
+                </a>
+                </div>
+                <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+                    <a href="/" className="mr-5 hover:text-white">Home</a>
+                    <a href="/imprint" className="mr-5 hover:text-white">Imprint</a>
+                    <a href="#projects" className="mr-5 hover:text-white">
+                        Past Work
+                    </a>
+                    <a href="#skills" className="mr-5 hover:text-white">
+                        Skills
+                    </a>
+                    <a href="https://blog.invalidlenni.de/" className="mr-5 hover:text-white">
+                        Blog
+                    </a>
+                    <a href="https://dev.to/InvalidLenni" className="mr-5 hover:text-white">
+                        dev.to blog
+                    </a>
+                </nav>
+            </div>
+        </header>
+      <Outlet />
+    </>
+  );
+}
+
+
+export default Layout;

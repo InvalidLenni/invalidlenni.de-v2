@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Imprint() {
+export default function ImprintC() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
